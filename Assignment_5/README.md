@@ -1,5 +1,6 @@
 # Assignment 5 
 #### Bridger Fiore
+
 ![Screeshot of GitHub Desktop](./MART341_GitHub_screenshot.png)
 ## Desert Solitaire: A Season in the Wilderness
 ### By: Edward Abbey 
