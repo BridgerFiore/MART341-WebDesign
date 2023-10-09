@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        Hiking to Delicate Arch: a guide to the greatest spot on earth
-    </title>
-<!--Define the character set:-->  
-<meta charset="UTF-8">
-<!--Define discription of page:-->  
-<meta name="discription" content="Hiking Delicate Arch">
-<!--Author information:-->
-<meta name="author" content="Bridger Fiore">
-<!--Additional meta elements:-->
-<meta name="veiwport" content="width=device-width, initial-scale=1.0">
-
-<style>
-    body
-    {
-        background-color: lightsalmon;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-    }
-    h1
-    {
-        color:darkslateblue;
-        font-size: 50px;
-    }
-</style>
-</head>
+# Assignment 6
+## Webpage about Delicate Arch
+[Link to Assignment 6](https://bridgerfiore.github.io/MART341-WebDesign/Assignment_6/)
