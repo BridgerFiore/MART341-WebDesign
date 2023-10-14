@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>Sapphire Physical Therapy</title>
@@ -18,13 +19,113 @@
             font-size: 15px;
         }
         h1 {
-            color:slategray;
-            font-size: 50px;
+            color:#efefef;
+            font-size: 30px;
+        }
+        h2 {
+            color: #efefef;
+            font-size: 15px
+        }
+        h3 {
+            color:midnightblue;
+            font-size: 15px
         }
         table {
-            border: 2px black
+            border: 2px rgba(239,239,239,0)
         }
     </style>
 </head>
 
-<body></body>
+<body>
+    <img src="Images/sapphire-pt-300x200.png" width="500" height="350" alt="Sapphire PT logo" title="Sapphire PT logo">
+    <h1>More Than Bands and Body Weight:</h1>
+    <h3>At Sapphire, we are more than bands and body weight. We provide the highest quality evidence-based physical therapy with each patient’s goals at the center of our practice. Choose from a number of providers to find the perfect fit to meet your movement goals at any level: from balance and gait needs to D1 athletes preparing for season</h3>
+    <h1>Services:</h1>
+    <ul>
+        <li>Dry Needling</li>
+        <li>Pre and Post Operative</li>
+        <li>Running Services</li>
+        <li>Sport Injury Rehabilitation</li>
+        <li>Return to Sport Testing</li>
+        <li>Foot and Ankle Rehabilitation</li>
+        <li>Functional Capacity Evaluation (FCE)</li>
+        <li>Neck and Back Injury Rehabilitation</li>
+        <li>Custom Foot Orthodics</li>
+        <li>Strength and Conditioning Classes</li>
+        <li>Vestibular Rehabilitation</li>
+        <li>Work-Related Rehabilitation</li>
+    </ul>
+    <h1>Hours of Operation:</h1>
+    <h2>By appointment only, same day appointments may be avalaible</h2>
+    <p>
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Mondays</td>
+                <td>8:00am - 6:00pm</td>
+            </tr>
+            <tr>
+                <td>Tuesdays</td>
+                <td>8:00am - 6:00pm</td>
+            </tr>
+            <tr>
+                <td>Wednesdays</td>
+                <td>8:00am - 6:00pm</td>
+            </tr>
+            <tr>
+                <td>Thursdays</td>
+                <td>8:00am - 6:00pm</td>
+            </tr>
+            <tr>
+                <td>Fridays</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td>Saturdays</td>
+                <td>Closed</td>
+            </tr>
+            <tr>
+                <td>Sundays</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </p>
+    <h1>We make Custom Orthodics!</h1> <br/>
+    <img src="Images/Orthotics+Logo.png" width="400" height="200" alt="Orthodics logo" title="Orthodics logo">
+
+    <h2>Ask a PT about an Injury:</h2>
+    <form method="post" action="index.html">
+        Name:<br/>
+        <input type="text" id="name" placeholder="enter your name" autofocus>
+        <h2>I Have Pain in:</h2>
+        <input type="checkbox" name="pain-in" type="pain-in" value="Neck">Neck<br/>
+        <input type="checkbox" name="pain-in" type="pain-in" value="Back">Back<br/>
+        <input type="checkbox" name="pain-in" type="pain-in" value="Knee">Knee<br/>
+        <input type="checkbox" name="pain-in" type="pain-in" value="Foot">Foot<br/>
+        <input type="checkbox" name="pain-in" type="pain-in" value="Other">Other<br/>
+        <h2>Comments on your Injury:</h2>
+        <textarea name="comments" id="comments" rows="10" col="50">any additional information and or questions</textarea>
+        <br/>
+        <img src="Images/DSC_0204.jpg" width="400" height="250" alt="Sapphire Building" title="Sapphire Building">
+        <h1>Contact Us:</h1>
+        <a href="tel:406-549-5283" target="_blank" rel="noopener">(406)-549-5283</a> <br/>
+        <a href="mailto:reception@sapphirept.com">send us an email!</a> <br/>
+        <address>
+            Sapphire Physical Therapy<br/>
+            1705 Bow Street <br/>
+            Missoula, MT 59801 <br/>
+        </address>
+
+        <h2>Newsletter Subscription?</h2>
+        Yes&nbsp;<input type="radio" name="newsletter" type="newsletter" value="yes">
+        No&nbsp;<input type="radio" name="newsletter" type="newsletter" value="no"> <br/>
+        <input type="submit" name="subscribe" value="Subscribe" />
+    </form>
+
+    <h1>We hope you have fun adventures pain and injury free!</h1>
+    <img src="Images/sapphire-pt-shield_730x474.png" width="500" height="350" alt="Sapphire Shield" title="Sapphire Shield">
+</body>
+</html>
