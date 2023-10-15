@@ -19,16 +19,20 @@
             font-size: 15px;
         }
         h1 {
-            color:#efefef;
-            font-size: 30px;
+            color:aliceblue;
+            font-size: 40px;
         }
         h2 {
-            color: #efefef;
+            color: aliceblue;
             font-size: 15px
         }
         h3 {
-            color:midnightblue;
+            color:rgb(2, 154, 154);
             font-size: 15px
+        }
+        h4 {
+            color:aliceblue;
+            font-size: 25px
         }
         table {
             border: 2px rgba(239,239,239,0)
@@ -55,9 +59,9 @@
         <li>Vestibular Rehabilitation</li>
         <li>Work-Related Rehabilitation</li>
     </ul>
-    <h2>Ask a PT about an Injury:</h2>
+    <h4>Ask a PT about an Injury:</h4>
     <form method="post" action="index.html">
-        Name:<br/>
+        Enter Name:<br/>
         <input type="text" id="name" placeholder="enter your name">
         <h2>I Have Pain in:</h2>
         <input type="checkbox" name="pain-in" type="pain-in" value="Neck">Neck<br/>
@@ -68,6 +72,7 @@
         <h2>Comments on your Injury:</h2>
         <textarea name="comments" id="comments" rows="10" col="50" placeholder="any additional information and or questions"></textarea>
         <br/> 
+        <input type="submit" name="submit" value="Submit"/>
     </form>
     <h1>Hours of Operation:</h1>
     <h2>By appointment only, same day appointments may be avalaible</h2>
