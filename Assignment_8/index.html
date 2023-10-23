@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blue Angels</title>
+    <!--Define characterset use-->
+    <meta charset="UTF-8">
+    <!--Difine author information-->
+    <meta name="author" content="Bridger Fiore">
+    <!--Other meta-->
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+    <title>Showcase of the Blue Angels</title>
+
+    <style>
+        body {
+            background-color: whitesmoke;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 15px;
+        }
+        .container {    
+            background-color: rgb(0,50,99);
+            width: 800;
+            margin: auto;
+            padding: 20px;
+            border: 5pt double rgb(245,180,23);
+        }
+        .schedule {
+            background-color: rgb(245,180,23);
+            color:rgb(0,50,99);
+            font-size: 15px;
+            font-family:Arial, Helvetica, sans-serif;
+            border: 5pt double rgb(0,50,99);
+        }
+        h1 {
+            color:rgb(245,180,23);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 80px;
+        }
+        h2 {
+            color:rgb(245,180,23);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 65px;
+
+        }
+        h3 {
+            color:rgb(245,180,23);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 25px; 
+        }
+        h4 {
+            color:rgb(245,180,23);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px;  
+        }
+        h5 {
+            color:rgb(0,50,99);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 50px;  
+        }
+        h6 {
+            color:whitesmoke;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30px;  
+        }
+        .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+        }
+        .center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+        }
+        .center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+        }
+        .topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+        }
+        .topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+        }
+        div.outer { position: relative; height: 24px; }
+ div.outer img { position: absolute; right: 0; bottom: 0; } 
+    </style>
+
+</head>
+<body>
+<!--This the the emblem of the Blue Angels-->
+<div id="emblem" class="container">
+    <h1 style="text-align: center;">The Blue Angels</h1>
+    <h2 style="text-align: center;">United States Navy</h2>
+    <img src="Images/800px-Blue_Angels_Insignia.svg.png" width="400" hieght="100" class="center">
+    <h3 style="text-align: right;">Blue Angels Insignia&reg;</h3>
+        <img src="Images/Flag_of_the_United_States.png.webp" width="200" height="100" class="topright">
+        <img src="Images/Emblem_of_the_United_States_Navy.svg.png" width="200" height="200" class="topleft">
+</div>
+<div id="motto" class="container">
+    <h1 style="text-align:center;">Precision:</h1>
+    <h3>The mission of the Blue Angels is to showcase the teamwork and professionalism of the United States Navy and Marine Corps through flight demonstrations and community outreach while inspiring a culture of excellence and service to country.</h3>
+</div>
+<!--This is the Audio track saved locally-->
+<div style="display:block;margin:auto; text-align: center" id="audio" class="container">
+    <h4 style="text-align: center;">Audio of a Fly Over</h4>
+<audio src="media/jet-overhead-72101.mp3" preload controls>
+    <p>This is a jet flying over</p>
+    <p>Sorry, your browser does not support our audio format.</p>
+  </audio>
+</div>
+<!--Video of airshow embedded from YouTube-->
+<div style="display:block;margin:auto; text-align: center" id="video" class="container">
+    <h4 style="text-align: center;">Blue Angels Air Show</h4>
+    <iframe width="1120" height="630" src="https://www.youtube.com/embed/RgkEqVO-Kqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<!--This division uses schedule class-->
+<div id="2023 schedule" class="schedule">
+    <img src="Images/800px-Blue_Angels_Insignia.svg.png" width="150" hieght="150" class="center1">
+    <h5 style="text-align: center;">2024 Show Schedule:</h5>
+    <h5 style="text-align:center;">MARCH:</h5>
+    <h6 style="text-align:center;">9     | NAF El Centro, CA <br />
+        16-17 | Travis AFB, CA <br />
+        23-24 | NAS JRB New Orleans, LA <br />
+    </h6>
+    <h5 style="text-align:center;">APRIL:</h5>
+    <h6 style="text-align:center;">
+        6-7   | Maxwell AFB, AL <br />
+        13-14 | NAS JRB Fort Worth, TX <br />
+        20-21 | Cocoa Beach, FL <br />
+        27-28 | Vidalia, GA <br />
+    </h6>
+    <h5 style="text-align:center;">MAY:</h5>
+    <h6 style="text-align:center;">
+        4-5   | Vero Beach, FL <br />
+        11-12 | MCAS Cherry Point, NC <br />
+        22-24 | USNA Annapolis, MD <br />
+        25-26 | Jones Beach, NY <br />
+    </h6>
+    <h5 style="text-align:center;">JUNE:</h5>
+    <h6 style="text-align:center;">
+        1-2   | Terre Haute, IN <br />
+        8-9   | Chesterfield, MO <br />
+        15-16 | La Crosse, WI <br />
+        22-23 | Dayton, OH <br />
+        29-30 | Traverse City, MI <br />
+    </h6>
+    <h5 style="text-align:center;">JULY:</h5>
+    <h6 style="text-align:center;">
+        6-7   | Johnson City, NY <br />
+        13    | Pensacola Beach, FL <br />
+        27-28 | Fargo, ND <br />
+    </h6>
+    <h5 style="text-align:center;">AUGUST:</h5>
+    <h6 style="text-align:center;">
+        3-4   | Seattle, WA <br />
+        10-11 | Colorado Springs, CO <br />
+        17-18 | Chicago, IL <br />
+        24-25 | Wichita, KS <br />
+        30-31 | Clevelend, OH <br />
+    </h6>
+    <h5 style="text-align:center;">SEPTEMBER:</h5>
+    <h6 style="text-align:center;">
+        14-15 | Owensboro, KY <br />
+        21-21 | NAS Oceana, VA <br />
+        28-29 | MCAS Miramar, CA <br />
+    </h6>
+    <h5 style="text-align:center;">OCTOBER:</h5>
+    <h6 style="text-align:center;">
+        5-6   | *TBD* <br />
+        12-13 | San Francisco, CA <br />
+        19-20 | NAS Jacksonville, FL <br />
+        26-27 | Houston, TX <br />
+    </h6>
+    <h5 style="text-align:center;">NOVEMBER:</h5>
+    <h6 style="text-align:center;">
+        1-2 | NAS Pensacola, FL
+    </h6>
+    <img src="Images/800px-Blue_Angels_Insignia.svg.png" width="150" hieght="150" class="center1">
+</div>
+<div id="copyright" class="container">
+    <h2 style="text-align: center;">COPYRIGHT &copy;</h2>
+    <h3 style="text-align: center;">I do not own any of this material, property of the U.S. Navy</h3>
+    <img src="Images/Emblem_of_the_United_States_Navy.svg.png" width="100" hieght="100" class="center2">
+</div>
+<div class="outer">
+    <img src="Images/logo_-university-of-montana-grizzlies-paw-print.png" width="40" height="50" alt="The Paw" title="Created by: Bridger Fiore, University of Montana">
+</div>
+</body>
+</html>
