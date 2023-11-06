@@ -1,0 +1,7 @@
+Assignment 3:
+1. There are a few advantages to using a text editor. The most advantages is the ease of use during web design. 
+The use of text editors allows the developer to see errors in text 
+more simply than others, and therefore is a quicker method than others.  
+2. The main advantage of using a relative url vs an absolute url is, relative urls are shorter than absolute urls 
+because when using a relative url it is only linking two folders that are in the same path. This is also why 
+developers still need absolute urls because those can be directed to any path.
