@@ -40,6 +40,6 @@
 }
 @font-face {
     font-family:'Agbalumo';
-    src: url('../fonts/Agbalumo-Regular.ttf') format('opentype');
+    src: url('../fonts/Agbalumo-Regular.ttf') format('truetype');
     font-style: 'italic';
 }

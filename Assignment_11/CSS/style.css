@@ -1,6 +1,11 @@
+body {
+    font-family: Merriweather-Regular;
+    font-size: large;
+    background-image: linear-gradient(rgb(1, 2, 22), rgb(0, 4, 78));
+}
 div {
     text-align: center;
-    font-family: Merriweather;
+    font-family: Merriweather-Regular;
     font-style: normal;
     margin: 15px;
 }
@@ -8,6 +13,223 @@ div {
     font-family: 'Agbalumo';
     font-size: 80px;
     font-style: italic;
-    height: 100px;
     text-align: center;
+    color:rgb(185, 133, 3);
+    text-shadow: -6px 4px 0 rgb(112,0,46);
+    background-color: rgb(148, 217, 244);
+    border-style: groove;
+    border-width: 5px;
+    border-color: whitesmoke;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+}
+.body {
+    font-family: 'Merriweather-Regular';
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color:rgb(112, 0, 46);
+    text-shadow: -1px 1px 0 rgb(185, 133, 3);
+    background-color: rgb(148, 217, 244);
+    border-style: groove;
+    border-width: 5px;
+    border-color: whitesmoke;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+}
+h1 {
+    font-family: 'Agbalumo';
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    color:rgb(185, 133, 3);
+    text-shadow: -5px 3px 0 rgb(112,0,46);
+}
+
+#Deathzone{
+    font-family: 'Merriweather-Regular';
+    font-weight: 200;
+}
+
+
+#Deathzone:hover:after {
+
+    content: "In mountaineering, the death zone refers to altitudes above a certain point where the pressure of oxygen is insufficient to sustain human life for an extended time span. This point is generally tagged as 8,000 m (26,000 ft), where atmospheric pressure is less than 356 millibars (10.5 inHg; 5.16 psi).[1] The concept was conceived in 1953 by Edouard Wyss-Dunant, a Swiss doctor, who called it the lethal zone.[2] All 14 peaks above 8000 m in the death zone are located in the Himalaya and Karakoram of Asia.";
+    font-weight: 200;
+    color: rgb(185, 133, 3);
+    text-shadow: -1px 1px 0 rgb(112,0,46);
+    font-style: italic;
+}
+#MtEverest{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#MtEverest:hover:after {
+
+    content: "Mount Everest (Nepali: सगरमाथा, romanized: Sagarmāthā; Tibetan: Chomolungma ཇོ་མོ་གླང་མ; Chinese: 珠穆朗玛峰; pinyin: Zhūmùlǎngmǎ Fēng) is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point. Its elevation (snow height) of 8,848.86 m (29,031 ft 8+1⁄2 in) was most recently established in 2020 by the Chinese and Nepali authorities";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#K2{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#K2:hover:after {
+
+    content: "K2, at 8,611 metres (28,251 ft) above sea level, is the second-highest mountain on Earth, after Mount Everest at 8,849 metres (29,032 ft).[3] It lies in the Karakoram range, partially in the Gilgit-Baltistan region of Pakistan-administered Kashmir and partially in the China-administered Trans-Karakoram Tract in the Taxkorgan Tajik Autonomous County of Xinjiang. It is known as the Savage Mountain with a high death to summit pecentage.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Kangchenjunga{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Kangchenjunga:hover:after {
+
+    content: "Kangchenjunga, also spelled Kanchenjunga, Kanchanjanghā and Khangchendzonga, is the third-highest mountain in the world. Its summit lies at 8,586 m (28,169 ft) in a section of the Himalayas, the Kangchenjunga Himal, which is bounded in the west by the Tamur River, in the north by the Lhonak River and Jongsang La, and in the east by the Teesta River.It lies in the border region between Nepal and Sikkim state of India, with three of the five peaks, namely Main, Central and South, directly on the border, and the peaks West and Kangbachen in Nepal's Taplejung District.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Lhotse{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Lhotse:hover:after {
+    content:"Lhotse (Nepali: ल्होत्से L'hōtsē Nepali pronunciation: [lot.se]; Tibetan: ལྷོ་རྩེ Tibetan pronunciation: [l̥otse], lho tse, Chinese: 洛子峰) is the fourth highest mountain in the world at 8,516 metres (27,940 ft), after Mount Everest, K2, and Kangchenjunga. The main summit is on the border between Tibet Autonomous Region of China and the Khumbu region of Nepal.With Everest to the north and Nuptse to the west, Lhotse forms the apex of the massive horseshoe-shaped arc of the Everest massif.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Makalu{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Makalu:hover:after {
+    content:"Makalu (Nepali: मकालु हिमाल, romanized: Makālu himāl; Chinese: 马卡鲁峰, pinyin: Mǎkǎlǔ Fēng) is the fifth highest mountain in the world at 8,481 metres (27,825 ft). It is located in the Mahalangur Himalayas 19 km (12 mi) southeast of Mount Everest, on the China–Nepal border. One of the eight-thousanders, Makalu is an isolated peak in the shape of a four-sided pyramid.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Chooyu{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Chooyu:hover:after {
+    content:"Cho Oyu (Nepali: चोयु; Tibetan: ཇོ་བོ་དབུ་ཡ; Chinese: 卓奥友峰) is the sixth-highest mountain in the world at 8,188 metres (26,864 ft) above sea level. Cho Oyu means 'Turquoise Goddess' in Tibetan.The mountain is the westernmost major peak of the Khumbu sub-section of the Mahalangur Himalaya 20 km west of Mount Everest. The mountain stands on the China Tibet–Nepal Province No. 1 border.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Dhaulagiri{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Dhaulagiri:hover:after {
+    content:"Dhaulagiri is the seventh highest mountain in the world at 8,167 metres (26,795 ft) above sea level, and the highest mountain within the borders of a single country (Nepal). It was first climbed on 13 May 1960 by a Swiss-Austrian-Nepali expedition. Annapurna I (8,091 m (26,545 ft)) is 34 km (21 mi) east of Dhaulagiri. The Kali Gandaki River flows between the two in the Kaligandaki Gorge, said to be the world's deepest.[citation needed] The town of Pokhara is south of the Annapurnas, an important regional center and the gateway for climbers and trekkers visiting both ranges as well as a tourist destination in its own right.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Manaslu{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Manaslu:hover:after {
+    content:"Manaslu (/məˈnɑːsluː/; Nepali: मनास्लु, also known as Kutang) is the eighth-highest mountain in the world at 8,163 metres (26,781 ft) above sea level. It is in the Mansiri Himal, part of the Nepalese Himalayas, in the west-central part of Nepal. The name Manaslu means 'mountain of the spirit' and is derived from the Sanskrit word manasa, meaning 'intellect' or 'soul'. Manaslu was first climbed on May 9, 1956, by Toshio Imanishi and Gyalzen Norbu, members of a Japanese expedition. It is said that, given the many unsuccessful attempts by the British to climb Everest before Nepali Tenzing Norgay and New Zealander Edmund Hillary, 'just as the British consider Everest their mountain, Manaslu has always been a Japanese mountain'.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Nangaparbat{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Nangaparbat:hover:after {
+    content:"Nanga Parbat (Urdu: نَنگا پربت) (Urdu: [nəŋɡa pərbət̪]; lit. 'naked mountain'), known locally as Diamer (Shina: دیآمر, lit. 'King of the Mountains'), is the ninth-highest mountain on Earth, its summit at 8,126 m (26,660 ft) above sea level.[2] Lying immediately southeast of the northernmost bend of the Indus River in the Gilgit-Baltistan region of Pakistan-administered Kashmir, Nanga Parbat is the westernmost major peak of the Himalayas, and thus in the traditional view of the Himalayas as bounded by the Indus and Yarlung Tsangpo/Brahmaputra rivers, it is the western anchor of the entire mountain range.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Annapurna{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Annapurna:hover:after {
+    content:"Annapurna (/ˌænəˈpʊərnəˌ -ˈpɜːr-/;[3][4] Nepali: अन्नपूर्ण) is a mountain situated in the Annapurna mountain range of Gandaki Province, north-central Nepal. It is the tenth highest mountain in the world at 8,091 metres (26,545 ft) above sea level and is well known for the difficulty and danger involved in its ascent.Annapurna I was the first 8,000-metre (26,200 ft) peak to be climbed.[9] Maurice Herzog and Louis Lachenal, of the French Annapurna expedition led by Herzog (including Lionel Terray, Gaston Rébuffat, Marcel Ichac, Jean Couzy, Marcel Schatz, Jacques Oudot, Francis de Noyelle), reached the summit on 3 June 1950.[10] Ichac made a documentary of the expedition, called Victoire sur l'Annapurna. Its summit was the highest summit attained so far, but not the highest climb; higher non-summit points – at least 8,500 metres (27,900 ft) – had already been attained on Mount Everest in the 1920s.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#GasherbrumI{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#GasherbrumI:hover:after {
+    content:"Gasherbrum I (Balti: རྒ་ཥཱ་བྲུམ་། - ༡, romanized: rgasha brum - 1, lit. 'Beautiful Mountain - 1'; Urdu: گاشر برم - ۱; simplified Chinese: 加舒尔布鲁木I峰; traditional Chinese: 加舒爾布魯木I峰; pinyin: Jiāshūěrbùlǔmù I Fēng), surveyed as K5 and also known as Hidden Peak, is the 11th highest mountain in the world at 8,080 metres (26,510 ft) above sea level. It is located between Shigar District in the Gilgit–Baltistan region of Pakistan and Tashkurgan in the Xinjiang of China. Gasherbrum I is part of the Gasherbrum Massif, located in the Karakoram region of the Himalaya. Gasherbrum is often claimed to mean 'Shining Wall', presumably a reference to the highly visible face of the neighboring peak Gasherbrum IV; but in fact, it comes from 'rgasha' (beautiful) + 'brum' (mountain) in Balti, hence it actually means 'beautiful mountain.'";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Broadpeak{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Broadpeak:hover:after {
+    content:"Broad Peak (Balti: ཕ༹ལ་ཆན་གངས་རི་།, romanized: Falchan Kangri, lit. 'Broad Peak'; Urdu: بروڈ پیک)[2] is one of the eight-thousanders, and is located in the Karakoram range spanning Gilgit-Baltistan, Pakistan and Xinjiang, China. It is the 12th highest mountain in the world with 8,051 metres (26,414 ft) elevation above sea level. This peak achieved its first ascent in June 1957, accomplished by Fritz Wintersteller, Marcus Schmuck, Kurt Diemberger, and Hermann Buhl as part of an Austrian expedition.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#GasherbrumII{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#GasherbrumII:hover:after {
+    content:"Gasherbrum II (Balti: རྒ་ཥཱ་བྲུམ་། - ༢, romanized: rgasha brum 2, lit. 'Beautiful Mountain 2'; Urdu: گاشر برم - ۲; simplified Chinese: 加舒尔布鲁木II峰; traditional Chinese: 加舒爾布魯木II峰; pinyin: Jiāshūěrbùlǔmù II Fēng); surveyed as K4, is the 13th highest mountain in the world at 8,035 metres (26,362 ft) above sea level. It is the third-highest peak of the Gasherbrum massif, and is located in the Karakoram, on the border between Gilgit–Baltistan, Pakistan and Xinjiang, China. The mountain was first climbed on July 7, 1956, by an Austrian expedition which included Fritz Moravec, Josef Larch, and Hans Willenpart.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
+}
+#Shishapangma{
+    font-family: 'Merriweather-Regular';
+    font-weight: 400;
+}
+
+
+#Shishapangma:hover:after {
+    content:"Shishapangma,[7][8] or Shishasbangma (Xixabangma), also called Gosainthān, is the 14th-highest mountain in the world, at 8,027 metres (26,335 ft) above sea level. It is located entirely within Tibet. In 1964, it became the final eight-thousander to be climbed.Geologist Toni Hagen explained the name as meaning a 'grassy plain' or 'meadow' (pangma) above a 'comb' or a 'range' (shisha or chisa) in the local Tibetan language, thereby signifying the 'crest above the grassy plains'.";
+    font-weight: 400;
+    color: rgb(112, 0, 46);
+    font-style: italic;
 }
