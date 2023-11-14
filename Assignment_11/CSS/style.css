@@ -14,7 +14,7 @@ div {
     font-size: 80px;
     font-style: italic;
     text-align: center;
-    color:rgb(185, 133, 3);
+    color:rgb(237, 139, 0);
     text-shadow: -6px 4px 0 rgb(112,0,46);
     background-color: rgb(148, 217, 244);
     border-style: groove;
@@ -30,7 +30,7 @@ div {
     font-style: italic;
     text-align: center;
     color:rgb(112, 0, 46);
-    text-shadow: -1px 1px 0 rgb(185, 133, 3);
+    text-shadow: -1px 1px 0 rgb(237, 139, 0);
     background-color: rgb(148, 217, 244);
     border-style: groove;
     border-width: 5px;
@@ -44,8 +44,23 @@ h1 {
     font-size: 60px;
     font-style: normal;
     text-align: center;
-    color:rgb(185, 133, 3);
+    color:rgb(237, 139, 0);
     text-shadow: -5px 3px 0 rgb(112,0,46);
+}
+.footer {
+    font-family: 'Agbalumo';
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color:rgb(112, 0, 46);
+    text-shadow: -1px 1px 0 rgb(237, 139, 0);
+    background-color: rgb(224,224,224);
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(237, 139, 0);
+    padding: 10px;
+    width: 75%;
+    margin: auto;
 }
 
 #Deathzone{
@@ -58,7 +73,7 @@ h1 {
 
     content: "In mountaineering, the death zone refers to altitudes above a certain point where the pressure of oxygen is insufficient to sustain human life for an extended time span. This point is generally tagged as 8,000 m (26,000 ft), where atmospheric pressure is less than 356 millibars (10.5 inHg; 5.16 psi).[1] The concept was conceived in 1953 by Edouard Wyss-Dunant, a Swiss doctor, who called it the lethal zone.[2] All 14 peaks above 8000 m in the death zone are located in the Himalaya and Karakoram of Asia.";
     font-weight: 200;
-    color: rgb(185, 133, 3);
+    color: rgb(237, 139, 0);
     text-shadow: -1px 1px 0 rgb(112,0,46);
     font-style: italic;
 }
