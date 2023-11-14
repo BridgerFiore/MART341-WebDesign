@@ -1,7 +1,7 @@
 body {
     font-family: Merriweather-Regular;
     font-size: large;
-    background-image: linear-gradient(rgb(1, 2, 22), whitesmoke);
+    background-image: linear-gradient(rgb(1, 2, 22), rgb(148, 217, 244));
 }
 div {
     text-align: center;
