@@ -93,7 +93,17 @@ h3 {
     width: 75%;
     margin: auto;
 }
-
+#hover{
+    font-family: 'Merriweather-Regular';
+    font-weight: 200;
+}
+#hover:hover:after {
+    content: " this will let you see some fun facts!";
+    font-weight:  200;
+    color: rgb(237, 139, 0);
+    text-shadow: -1px 1px 0 rgb(112,0,46);
+    font-style: italic;
+}
 #Deathzone{
     font-family: 'Merriweather-Regular';
     font-weight: 200;
