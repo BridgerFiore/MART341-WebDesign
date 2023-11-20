@@ -81,6 +81,7 @@ h1 {
     font-style: normal;
     text-align: center;
     color: rgb(105, 190, 40);
+    text-shadow: -2px 2px 0 rgb(165, 172, 175);
 }
 h2 {
     font-family: 'Seahawk text1';
@@ -91,11 +92,11 @@ h2 {
 }
 h3 {
     font-family: 'Seahawk text1';
-    font-size: 60px;
+    font-size: 100px;
     font-style: normal;
     text-align: center;
     color:rgb(165, 172, 175);
-    text-shadow: -1px 1px 0 rgb(105, 190, 40);
+    -webkit-text-stroke: 1px  rgb(105, 190, 40);
 }
 .body {
     font-family: 'KdamproRegular';
