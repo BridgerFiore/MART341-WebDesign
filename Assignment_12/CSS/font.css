@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'Seahawk text1';
+    src: url('../fonts/NFL_Seattle_Seahawks_Flat[1].ttf') format('truetype');
+    font-style: 'bold';
+}
+@font-face {
+    font-family:'Seahawk text2';
+    src: url('../fonts/Merriweather-Black.ttf') format('truetype');
+    font-style: 'Regular';
+}
+@font-face {
+    font-family:'KdamproRegular';
+    src: url('../fonts/KdamThmorPro-Regular.ttf') format('truetype');
+    font-style: 'Regular';
+}

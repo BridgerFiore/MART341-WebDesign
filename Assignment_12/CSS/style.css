@@ -1,0 +1,39 @@
+body {
+    font-family: KdamproRegular;
+    font-size: large;
+    background-image: linear-gradient(rgb(0, 34, 68), rgb(105, 190, 40));
+}
+div {
+    text-align: center;
+    font-family: KdamproRegular ;
+    font-style: normal;
+    margin: 12px;
+}
+header {
+    position: fixed;
+    background-color: rgb(0, 34, 68);
+    font-family: 'Seahawk text2';
+    font-style: medium;
+    color: rgb(105, 190, 40);
+    font-variant: normal;
+    text-align: center;
+    margin: 0;
+    height: 2.5em;
+    width: 100%;
+}
+.menu {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: rgb(0, 34, 68);
+    padding: .12em 0;
+}
+.menu a {
+    color: rgb(105, 190, 40);
+    text-decoration: none;
+}
+.menu:hover {
+    background-color: rgb(0, 48, 135);
+    margin:auto;
+}
