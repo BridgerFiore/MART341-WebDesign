@@ -13,3 +13,8 @@
     src: url('../fonts/KdamThmorPro-Regular.ttf') format('truetype');
     font-style: normal;
 }
+@font-face {
+    font-family:'Throwback';
+    src: url('../fonts/SonsieOne-Regular.ttf') format('truetype');
+    font-style: bold;
+}
