@@ -3,84 +3,6 @@ body {
     font-size: large;
     background-image: linear-gradient(rgb(0, 34, 68), rgb(105, 190, 40));
 }
-div {
-    text-align: center;
-    font-family: 'KdamproRegular' ;
-    font-style: normal;
-    margin: 12px;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-          }
-header {
-    position: fixed;
-    background-color: rgb(0, 34, 68);
-    font-family: 'Seahawk text2';
-    font-style: medium;
-    color: rgb(105, 190, 40);
-    font-variant: normal;
-    text-align: center;
-    margin: 0;
-    height: auto;
-    width: 100%;
-}
-.menu{
-    display: inline-block;
-    margin: auto;
-    min-width: 12em;
-    text-align: center;
-    background-color: rgb(0, 34, 68);
-    padding: 0.21em 0;
-}
-.menu a {
-    color: rgb(105, 190, 40);
-    text-decoration: none;
-}
-.menu:hover {
-    background-color: rgb(0, 48, 135);
-}
-.dropdown {
-    display: inline-block;
-    margin: 0 0;
-    min-width: 8em;
-    text-align: center;
-    background-color: rgb(0, 34, 68);
-    padding: 0.5em 0;
-}
-.dropdown a {
-    color: rgb(105, 190, 40);
-    text-decoration: none;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    border: 1px solid rgb(0, 34, 68);
-    margin: 0;
-    margin-top: 0.5em;
-    color: rgb(0, 34, 68);
-    background-color: rgb(105, 190, 40);
-    z-index: 1;
-}
-.dropdown-content a {
-    color: rgb(0, 34, 68);
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown-info {
-    display: block;
-    text-align: left;
-    margin: 0;
-    padding: 0.5em;
-    min-width: 7em;
-}
-.dropdown-info:hover, .dropdown-info:hover a {
-    color: rgb(105, 190, 40);
-    background-color: rgb(0, 34, 68);
-}
 h1 {
     font-family: 'Seahawk text1';
     font-size: 100px;
@@ -110,6 +32,94 @@ h4 {
     font-style: normal;
     text-align: center;
     color:rgb(105, 190, 40);
+}
+h5 {
+    font-family: 'Throwback';
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    color:rgb(0, 34, 68);
+}
+header {
+    position: fixed;
+    background-color: rgb(0, 34, 68);
+    font-family: 'Seahawk text2';
+    font-style: medium;
+    color: rgb(105, 190, 40);
+    font-variant: normal;
+    text-align: center;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+div {
+    text-align: center;
+    font-family: 'KdamproRegular' ;
+    font-style: normal;
+    margin: 12px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.menu{
+    display: inline-block;
+    margin: auto;
+    min-width: 12em;
+    text-align: center;
+    background-color: rgb(0, 34, 68);
+    padding: 0.21em 0;
+}
+.menu a {
+    color: rgb(105, 190, 40);
+    text-decoration: none;
+}
+.menu:hover {
+    background-color: rgb(0, 48, 135);
+}
+.dropdown {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 12em;
+    text-align: center;
+    background-color: rgb(0, 34, 68);
+    padding: 0.5em 0;
+}
+.dropdown a {
+    color: rgb(105, 190, 40);
+    text-decoration: none;
+}
+.dropdown:hover {
+    background-color: rgb(0, 48, 135);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid rgb(0, 34, 68);
+    margin: 0;
+    margin-top: 0.5em;
+    color: rgb(0, 34, 68);
+    background-color: rgb(105, 190, 40);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgb(0, 34, 68);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-info {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-info:hover, .dropdown-info:hover a {
+    color: rgb(105, 190, 40);
+    background-color: rgb(0, 34, 68);
 }
 .body {
     font-family: 'KdamproRegular';
