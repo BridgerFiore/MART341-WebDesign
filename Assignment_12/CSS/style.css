@@ -115,7 +115,7 @@ div {
     text-align: center;
     margin: 0;
     padding: 0.5em;
-    min-width: 7em;
+    min-width: 12em;
 }
 .dropdown-info:hover, .dropdown-info:hover a {
     color: rgb(105, 190, 40);
