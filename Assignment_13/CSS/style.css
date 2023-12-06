@@ -27,6 +27,14 @@ h3 {
     color: rgb(255, 132, 0);
     text-shadow: -2px 2px 0 rgb(12, 119, 177);
 }
+h4 {
+    font-family: 'sharpie';
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 132, 0);
+    text-shadow: -2px 2px 0 rgb(12, 119, 177);
+}
 .center {
     display: block;
     margin-left: auto;
