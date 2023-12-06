@@ -9,26 +9,50 @@ h1 {
     font-style: normal;
     text-align: center;
     color: rgb(177, 37, 12);
+    text-shadow: -2px 2px 0 rgb(255, 132, 0);
+}
+h2 {
+    font-family: 'sharpie';
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(177, 37, 12);
     text-shadow: -2px 2px 0 rgb(12, 119, 177);
 }
+h3 {
+    font-family: 'sharpie';
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 132, 0);
+    text-shadow: -2px 2px 0 rgb(12, 119, 177);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
 header {
     position: fixed;
-    background-color: rgb(255, 208, 0);
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 132, 0);;
     font-family: 'Kanit';
     font-style: medium;
     color: rgb(177, 37, 12);
     font-variant: normal;
     text-align: center;
-    margin: 0;
+    margin-top: 0;
     height: auto;
     width: 100%;
 }
 .first-container {
-    border-style: dashed;
+    border-style: inset;
     border-width: 5px;
-    border-color: rgb(12, 119, 177);
+    border-color: rgb(177, 37, 12);
     padding: 10px;
-    background :rgb(255, 208, 0);
+    background :rgb(255, 132, 0);
     height: 75%;
     width: 75%;
     margin: auto;
@@ -36,24 +60,27 @@ header {
 .menu{
     display: inline-block;
     margin: auto;
-    min-width: 5em;
+    min-width: 10em;
     text-align: center;
-    background-color: rgb(255, 208, 0);
-    padding: 0.5em 1em;
+    background-color: rgb(255, 132, 0);
+    padding: 0.5em 0;
 }
 .menu a {
     color: rgb(177, 37, 12);
     text-decoration: none;
 }
 .menu:hover {
-    background-color: rgb(12, 119, 177);
+    background-color:rgb(12, 119, 177);
+}
+.menu a:hover {
+    color:rgb(255, 132, 0);
 }
 .dropdown {
     display: inline-block;
     margin: 0 0;
     min-width: 12em;
     text-align: center;
-    background-color: rgb(255, 208, 0);
+    background-color: rgb(255, 132, 0);
     padding: 0.5em 0;
 }
 .dropdown a {
@@ -63,18 +90,20 @@ header {
 .dropdown:hover {
     background-color: rgb(12, 119, 177);
 }
+.dropdown a:hover {
+    color:rgb(255, 132, 0);
+}
 .dropdown-content {
     display: none;
     position: absolute;
-    border: 1px solid rgb(255, 208, 0);
-    margin: 0;
-    margin-top: 0.5em;
-    color: rgb(255, 208, 0);
+    border: 1px solid rgb(255, 132, 0);
+    margin-top: 0;
+    color: rgb(255, 132, 0);;
     background-color: rgb(177, 37, 12);
     z-index: 1;
 }
 .dropdown-content a {
-    color: rgb(255, 208, 0);
+    color: rgb(255, 132, 0);;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -88,5 +117,5 @@ header {
 }
 .dropdown-info:hover, .dropdown-info:hover a {
     color: rgb(177, 37, 12);
-    background-color: rgb(255, 208, 0);
+    background-color: rgb(255, 132, 0);;
 }
