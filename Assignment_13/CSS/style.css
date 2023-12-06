@@ -1,0 +1,92 @@
+body {
+    font-family: 'Kanit';
+    font-size: large;
+    background-image: linear-gradient(rgb(12, 119, 177), rgb(177, 37, 12));
+}
+h1 {
+    font-family: 'script';
+    font-size: 100px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(177, 37, 12);
+    text-shadow: -2px 2px 0 rgb(12, 119, 177);
+}
+header {
+    position: fixed;
+    background-color: rgb(255, 208, 0);
+    font-family: 'Kanit';
+    font-style: medium;
+    color: rgb(177, 37, 12);
+    font-variant: normal;
+    text-align: center;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+.first-container {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(12, 119, 177);
+    padding: 10px;
+    background :rgb(255, 208, 0);
+    height: 75%;
+    width: 75%;
+    margin: auto;
+}
+.menu{
+    display: inline-block;
+    margin: auto;
+    min-width: 5em;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    padding: 0.5em 1em;
+}
+.menu a {
+    color: rgb(177, 37, 12);
+    text-decoration: none;
+}
+.menu:hover {
+    background-color: rgb(12, 119, 177);
+}
+.dropdown {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 12em;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    padding: 0.5em 0;
+}
+.dropdown a {
+    color: rgb(177, 37, 12);
+    text-decoration: none;
+}
+.dropdown:hover {
+    background-color: rgb(12, 119, 177);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid rgb(255, 208, 0);
+    margin: 0;
+    margin-top: 0.5em;
+    color: rgb(255, 208, 0);
+    background-color: rgb(177, 37, 12);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgb(255, 208, 0);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-info {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 12em;
+}
+.dropdown-info:hover, .dropdown-info:hover a {
+    color: rgb(177, 37, 12);
+    background-color: rgb(255, 208, 0);
+}

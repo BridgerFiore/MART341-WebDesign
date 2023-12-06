@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'script';
+    src: url('../fonts/StyleScript-Regular.ttf') format('truetype');
+    font-style: bold;
+}
+@font-face {
+    font-family:'Kanit';
+    src: url('../fonts/Kanit-BlackItalic.ttf') format('truetype');
+    font-style: italic;
+}
+@font-face {
+    font-family:'sharpie';
+    src: url('../fonts/PermanentMarker-Regular.ttf') format('truetype');
+    font-style: italic;
+}
