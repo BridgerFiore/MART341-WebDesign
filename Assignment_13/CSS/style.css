@@ -129,7 +129,7 @@ header {
 }
 
 .opener{
-    color: rgb(68, 3, 30);
+    color: rgb(103, 12, 6);
     text-shadow: -1px 1px 0 rgb(255, 132, 0);
     font-size: 30px;
     text-indent: 5px;
@@ -563,6 +563,83 @@ header {
         float:center;
         margin: auto;
         content:url("../Images/promo_road_pabradyphoto_getty.jpg");
+    }
+}
+.Ziondesert{
+    float: right;
+    margin: auto;
+    content:url("../Images/Ziondessert.jpg"); 
+    padding-left: 1em;
+    max-width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .Ziondesert{
+        max-width: 50%;
+        float:right;
+        margin: auto;
+        content:url("../Images/Ziondessert.jpg");
+    }
+}
+.Zionwaterfall{
+    float: left;
+    margin: auto;
+    content:url("../Images/Zionwaterfall.jpg"); 
+    padding-right: 1em;
+    max-width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .Zionwaterfall{
+        max-width: 50%;
+        float:left;
+        margin: auto;
+        content:url("../Images/Zionwaterfall.jpg");
+    }
+}
+.Zionpano{
+    float: center;
+    margin: auto;
+    content:url("../Images/Zionpano.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .Zionpano{
+        max-width: 100%;
+        float:center;
+        margin: auto;
+        content:url("../Images/Zionpano.jpg");
+    }
+}
+.Zionswitchbacks{
+    float: right;
+    margin: auto;
+    content:url("../Images/zionswithbacks.jpg"); 
+    padding-left: 1em;
+    max-width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .Zionswitchbacks{
+        max-width: 50%;
+        float:right;
+        margin: auto;
+        content:url("../Images/zionswithbacks.jpg");
+    }
+}
+.Zionfinal{
+    float: center;
+    margin: auto;
+    content:url("../Images/Zionfinal.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .Canyonlandsfromair{
+        max-width: 50%;
+        float:right;
+        margin: auto;
+        content:url("../Images/Zionfinal.jpg");
     }
 }
 [class*="col-"] {
