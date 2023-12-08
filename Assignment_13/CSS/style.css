@@ -3,7 +3,7 @@ body {
     font-size: large;
     background-image: linear-gradient(rgb(12, 119, 177), rgb(177, 37, 12));
 }
-h1 {
+.h1 {
     font-family: 'script';
     font-size: 100px;
     font-style: normal;
@@ -11,7 +11,7 @@ h1 {
     color: rgb(177, 37, 12);
     text-shadow: -2px 2px 0 rgb(255, 132, 0);
 }
-h2 {
+.h2 {
     font-family: 'sharpie';
     font-size: 40px;
     font-style: normal;
@@ -19,7 +19,7 @@ h2 {
     color: rgb(177, 37, 12);
     text-shadow: -2px 2px 0 rgb(12, 119, 177);
 }
-h3 {
+.h3 {
     font-family: 'sharpie';
     font-size: 60px;
     font-style: normal;
@@ -27,7 +27,7 @@ h3 {
     color: rgb(255, 132, 0);
     text-shadow: -2px 2px 0 rgb(12, 119, 177);
 }
-h4 {
+.h4 {
     font-family: 'sharpie';
     font-size: 30px;
     font-style: normal;
@@ -127,6 +127,7 @@ header {
     color: rgb(177, 37, 12);
     background-color: rgb(255, 132, 0);;
 }
+
 .opener{
     color: rgb(177, 37, 12);
     text-shadow: -1px 1px 0 rgb(255, 132, 0);
@@ -139,6 +140,129 @@ header {
     text-shadow: -1px 1px 0 rgb(255, 132, 0);
     font-size: 20px;
     text-indent: 5px;
+}
+.Delicatepngimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/The\ real\ Delicate\ Arch.png"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .Delicatepngimage{
+        max-width: 30%;
+        float:center;
+        margin: auto;
+        content:url("../Images/The\ real\ Delicate\ Arch.png");
+    }
+}
+.UTparksimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/UT\ National\ Parks.png"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 30%;
+    max-height: 30%;
+    object-fit: contain;
+}
+@media only screen and (min-width: 600px) {
+    .UTparkspngimage{
+        max-width: 30%;
+        max-height: 30%;
+        object-fit: contain;
+        content:url("../Images/UT\ National\ Parks.png");
+    }
+}
+.Archesmapimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/archmap.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 30%;
+    max-height: 30%;
+}
+@media only screen and (min-width: 600px) {
+    .Archesmapimage{
+        max-width: 30%;
+        max-height: 30%;
+        float:center;
+        margin: auto;
+        content:url("../Images/archmap.jpg");
+    }
+}
+.Brycecanyonimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/NPS_bryce-canyon-map.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 30%;
+    max-height: 30%;
+}
+@media only screen and (min-width: 600px) {
+    .Bryceconyonimage{
+        max-width: 30%;
+        max-height: 30%;
+        float:center;
+        margin: auto;
+        content:url("../Images/NPS_bryce-canyon-map.jpg");
+    }
+}
+.Canyonlandsimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/canyonlands.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 30%;
+    max-height: 30%;
+}
+@media only screen and (min-width: 600px) {
+    .Canyonlandsimage{
+        max-width: 30%;
+        max-height: 30%;
+        float:center;
+        margin: auto;
+        content:url("../Images/canyonlands.jpg");
+    }
+}
+.Capitolreefimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/Map_of_Capitol_Reef_National_Park.png"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 30%;
+    max-height: 30%;
+}
+@media only screen and (min-width: 600px) {
+    .Capitolreefimage{
+        max-width: 30%;
+        max-height: 30%;
+        float:center;
+        margin: auto;
+        content:url("../Images/Map_of_Capitol_Reef_National_Park.png");
+    }
+}
+.Zionimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/ZIONmap1.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 50%;
+    max-height: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .Zionimage{
+        max-width: 50%;
+        max-height: 50%;
+        float:center;
+        margin: auto;
+        content:url("../Images/ZIONmap1.jpg");
+    }
 }
 .Archesimage{
     float:right;
