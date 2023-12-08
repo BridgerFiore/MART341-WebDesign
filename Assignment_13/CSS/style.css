@@ -129,7 +129,7 @@ header {
 }
 
 .opener{
-    color: rgb(177, 37, 12);
+    color: rgb(86, 1, 37);
     text-shadow: -1px 1px 0 rgb(255, 132, 0);
     font-size: 30px;
     text-indent: 5px;
@@ -551,7 +551,7 @@ header {
     }
 }
 .CRroad2{
-    float: right;
+    float: center;
     margin: auto;
     content:url("../Images/promo_road_pabradyphoto_getty.jpg"); 
     padding-left: 1em;
