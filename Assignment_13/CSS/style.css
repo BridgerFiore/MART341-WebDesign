@@ -56,9 +56,9 @@ header {
     width: 100%;
 }
 .first-container {
-    border-style: inset;
+    border-style: dashed;
     border-width: 5px;
-    border-color: rgb(177, 37, 12);
+    border-color: rgb(103, 12, 6);
     padding: 10px;
     background :rgb(255, 132, 0);
     height: 75%;
