@@ -400,10 +400,13 @@ header {
     content:url("../Images/BCpano.jpg"); 
     padding-top: 1em;
     padding-bottom: 1em;
+    max-width: 100%;
+    max-height: 50%;
 }
 @media only screen and (min-width: 600px) {
     .BCpanoimage{
         max-width: 100%;
+        max-height: 50%;
         float:center;
         margin: auto;
         content:url("../Images/BCpano.jpg");
