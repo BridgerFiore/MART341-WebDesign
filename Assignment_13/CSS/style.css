@@ -636,7 +636,7 @@ header {
 }
 @media only screen and (min-width: 600px) {
     .Zionfinal{
-        max-width: 50%;
+        max-width: 100%;
         float:right;
         margin: auto;
         content:url("../Images/Zionfinal.jpg");
