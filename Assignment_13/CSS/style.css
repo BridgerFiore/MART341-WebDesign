@@ -489,6 +489,82 @@ header {
         content:url("../Images/Mesa_Arch_Canyonlands_sunrise.jpg");
     }
 }
+.CRcabin{
+    float: right;
+    margin: auto;
+    content:url("../Images/CRcabin.jpg"); 
+    padding-left: 1em;
+    max-width: 80%;
+}
+@media only screen and (min-width: 600px) {
+    .CRcabin{
+        max-width: 50%;
+        float:right;
+        margin: auto;
+        content:url("../Images/CRcabin.jpg");
+    }
+}
+.CRtemples{
+    float: left;
+    margin: auto;
+    content:url("../Images/temples-of-the-sun-and-moon_cathedral-valley_capitol-reef_till-tom.jpg"); 
+    padding-right: 1em;
+    max-width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .CRtemple{
+        max-width: 50%;
+        float:left;
+        margin: auto;
+        content:url("../Images/temples-of-the-sun-and-moon_cathedral-valley_capitol-reef_till-tom.jpg");
+    }
+}
+.CRroad{
+    float: center;
+    margin: auto;
+    content:url("../Images/CRroad.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .CRroad{
+        max-width: 100%;
+        float:center;
+        margin: auto;
+        content:url("../Images/CRroad.jpg");
+    }
+}
+.CRarch{
+    float: right;
+    margin: auto;
+    content:url("../Images/capitolreef1.jpg"); 
+    padding-left: 1em;
+    max-width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .CRarch{
+        max-width: 50%;
+        float:right;
+        margin: auto;
+        content:url("../Images/capitolreef1.jpg");
+    }
+}
+.CRroad2{
+    float: right;
+    margin: auto;
+    content:url("../Images/promo_road_pabradyphoto_getty.jpg"); 
+    padding-left: 1em;
+    max-width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .CRroad2{
+        max-width: 100%;
+        float:center;
+        margin: auto;
+        content:url("../Images/promo_road_pabradyphoto_getty.jpg");
+    }
+}
 [class*="col-"] {
     width: 100%;
   }
