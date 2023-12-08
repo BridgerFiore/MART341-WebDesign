@@ -412,6 +412,83 @@ header {
         content:url("../Images/BCpano.jpg");
     }
 }
+.Canyonlands1image{
+    float: center;
+    margin: auto;
+    content:url("../Images/canyonlands_main_image.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .Canyonlands1image{
+        max-width: 100%;
+        float:center;
+        margin: auto;
+        content:url("../Images/canyonlands_main_image.jpg");
+    }
+}
+.Canyonlandsfromair{
+    float: right;
+    margin: auto;
+    content:url("../Images/moab-airplane-tours-canyonlands-sunset-goosenecks.jpg"); 
+    padding-left: 1em;
+    max-width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .Canyonlandsfromair{
+        max-width: 50%;
+        float:right;
+        margin: auto;
+        content:url("../Images/moab-airplane-tours-canyonlands-sunset-goosenecks.jpg");
+    }
+}
+.canyoncountry{
+    float: left;
+    margin: auto;
+    content:url("../Images/Canyonlands_11-MAIN-1024x683.jpg"); 
+    padding-right: 1em;
+    max-width: 50%;
+}
+@media only screen and (min-width: 600px) {
+    .canyoncountry{
+        max-width: 50%;
+        float:left;
+        margin: auto;
+        content:url("../Images/Canyonlands_11-MAIN-1024x683.jpg");
+    }
+}
+.mesaarch{
+    float: center;
+    margin: auto;
+    content:url("../Images/1140-mesa-arch-sunrise-canyonlands-utah.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .mesaarch{
+        max-width: 100%;
+        float:center;
+        margin: auto;
+        content:url("../Images/1140-mesa-arch-sunrise-canyonlands-utah.jpg");
+    }
+}
+.mesaarch2{
+    float: right;
+    margin: auto;
+    content:url("../Images/Mesa_Arch_Canyonlands_sunrise.jpg"); 
+    padding-left: 1em;
+    max-width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .mesaarch2{
+        max-width: 100%;
+        float:right;
+        margin: auto;
+        content:url("../Images/Mesa_Arch_Canyonlands_sunrise.jpg");
+    }
+}
 [class*="col-"] {
     width: 100%;
   }
