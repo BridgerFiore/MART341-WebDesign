@@ -127,16 +127,74 @@ header {
     color: rgb(177, 37, 12);
     background-color: rgb(255, 132, 0);;
 }
+.opener{
+    color: rgb(177, 37, 12);
+    text-shadow: -1px 1px 0 rgb(255, 132, 0);
+    font-size: 30px;
+    text-indent: 5px;
+}
+.mainparagraphs{
+    color: rgb(44, 0, 19);
+    text-shadow: -1px 1px 0 rgb(255, 132, 0);
+    font-size: 20px;
+    text-indent: 5px;
+}
 .Archesimage{
     float:right;
     margin: auto;
     content:url("../Images/arches-national-park_delicate-arch-winter.jpg");
+    padding-left: 1em; 
 }
 @media only screen and (min-width: 600px) {
     .Archesimage{
+        max-width: 50%;
         float:right;
         margin: auto;
         content:url("../Images/arches-national-park_delicate-arch-winter.jpg");
+    }
+}
+.Turretimage{
+    float:left;
+    margin: auto;
+    content:url("../Images/TurretArch\ and\ the\ La\ Sals.jpg"); 
+    padding-right: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .Turretimage{
+        max-width:50%;
+        float:left;
+        margin: auto;
+        content:url("../Images/TurretArch\ and\ the\ La\ Sals.jpg");
+    }
+}
+.Delicateimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/arches-hero.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .Delicateimage{
+        max-width: 100%;
+        float:left;
+        margin: auto;
+        content:url("../Images/arches-hero.jpg");
+    }
+}
+.Archespanoimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/Arches-FieryFurnace-pano.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .Archespanoimage{
+        max-width: 100%;
+        float:left;
+        margin: auto;
+        content:url("../Images/Arches-FieryFurnace-pano.jpg");
     }
 }
 [class*="col-"] {
