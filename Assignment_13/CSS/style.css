@@ -132,6 +132,7 @@ header {
     text-shadow: -1px 1px 0 rgb(255, 132, 0);
     font-size: 30px;
     text-indent: 5px;
+    text-align: center;
 }
 .mainparagraphs{
     color: rgb(44, 0, 19);
@@ -195,6 +196,93 @@ header {
         float:left;
         margin: auto;
         content:url("../Images/Arches-FieryFurnace-pano.jpg");
+    }
+}
+.Brycepanoimage{
+    float:right;
+    margin: auto;
+    content:url("../Images/BryceCanyonsunrise.jpg"); 
+    padding-left: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .Brycepanoimage{
+        max-width: 50%;
+        float:right;
+        margin: auto;
+        content:url("../Images/BryceCanyonsunrise.jpg");
+    }
+}
+.BCsunriseimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/Bryce-Canyon-sunrise-snow-glow-HD-photography1.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .BCsunriseimage{
+        max-width: 100%;
+        float:left;
+        margin: auto;
+        content:url("../Images/Bryce-Canyon-sunrise-snow-glow-HD-photography1.jpg");
+    }
+}
+.wallstreetimage{
+    float: left;
+    margin: auto;
+    content:url("../Images/bryce-canyon-national-park-wall-street-utah-brian-harig.jpg"); 
+    padding-right: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .wallstreetimage{
+        max-width: 50%;
+        float:left;
+        margin: auto;
+        content:url("../Images/bryce-canyon-national-park-wall-street-utah-brian-harig.jpg");
+    }
+}
+.Bridgeimage{
+    float:right;
+    margin: auto;
+    content:url("../Images/1280px-Natural_bridge_in_Bryce_Canyon.jpg"); 
+    padding-left: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .Bridgeimage{
+        max-width: 50%;
+        float:right;
+        margin: auto;
+        content:url("../Images/1280px-Natural_bridge_in_Bryce_Canyon.jpg");
+    }
+}
+.BC100image{
+    float:center;
+    margin: auto;
+    content:url("../Images/BC100.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .BC100image{
+        max-width: 30%;
+        float: center;
+        margin: auto;
+        content:url("../Images/BC100.jpg");
+    }
+}
+.BCpanoimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/BCpano.jpg"); 
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .BCpanoimage{
+        max-width: 100%;
+        float:center;
+        margin: auto;
+        content:url("../Images/BCpano.jpg");
     }
 }
 [class*="col-"] {
