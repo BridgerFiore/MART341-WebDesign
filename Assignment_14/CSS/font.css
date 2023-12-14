@@ -1,0 +1,15 @@
+@font-face {
+    font-family:'script';
+    src: url('../fonts/Hardome-gx21E.ttf') format('truetype');
+    font-style: bold;
+}
+@font-face {
+    font-family:'MT main';
+    src: url('../fonts/Arvo-Bold.ttf') format('truetype');
+    font-style: bold;
+}
+@font-face {
+    font-family:'sharpie';
+    src: url('../fonts/PermanentMarker-Regular.ttf') format('truetype');
+    font-style: italic;
+}

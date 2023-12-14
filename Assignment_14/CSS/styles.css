@@ -1,0 +1,67 @@
+body {
+    font-family: 'MT main';
+    font-size: large;
+    background-image: linear-gradient(rgb(153, 153, 153), rgb(112, 0, 46));
+}
+.h1 {
+    font-family: 'MT main';
+    font-size: 100px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(112, 0, 46);
+    text-shadow: -2px 2px 0 rgb(237, 139, 0);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(237, 139, 0);
+    font-family: 'MT main';
+    font-style: medium;
+    color: rgb(112, 0, 46);
+    font-variant: normal;
+    text-align: center;
+    margin-top: 0;
+    height: auto;
+    width: 100%;
+}
+.Grizimage{
+    float:center;
+    margin: auto;
+    content:url("../Images/Montana_Griz_logo.svg.png");
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+@media only screen and (min-width: 600px) {
+    .Grizimage{
+        max-width: 30%;
+        float:center;
+        margin: auto;
+        content:url("../Images/Montana_Griz_logo.svg.png");
+    }
+}
+.menu{
+    display: inline-block;
+    margin: auto;
+    min-width: 10em;
+    text-align: center;
+    background-color: rgb(237, 139, 0);
+    padding: 0.5em 0;
+}
+.menu a {
+    color: rgb(112, 0, 46);
+    text-decoration: none;
+}
+.menu:hover {
+    background-color:rgb(153, 153, 153);
+}
+.menu a:hover {
+    color:rgb(112, 0, 46);
+    text-shadow: -2px 2px 0 rgb(237, 139, 0);
+}
